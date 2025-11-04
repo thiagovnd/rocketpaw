@@ -1,3 +1,6 @@
 .bg-rocket-beige {
     background-color: #f7f0de;
 }
+.max-width-100 {
+    max-width: 100%;
+}

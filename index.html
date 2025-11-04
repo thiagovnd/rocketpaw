@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/custom.css">
-    <title>Rocket Paw - Dog Boarding</title>
+    <title>Rocket Paw - Pet Sitting</title>
 </head>
 
 <body>
@@ -19,61 +19,10 @@
     <script src="js/submit-form.js"></script>
     <script src="js/vendor/isotope.pkgd.min.js"></script>
     <script src="js/video_embedded.js"></script>
+    <script src="js/load-header-footer.js"></script>
 
-
-    <!-- Header -->
-    <div class="border-bottom bg-rocket-beige sticky-top">
-        <div class="r-container">
-            <nav class="navbar navbar-expand-lg font-2">
-                <div class="container-fluid">
-                    <div class="logo-container">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="./image/original/logo-rocket-paw.jpg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About Us</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Services
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                    <li><a class="dropdown-item" href="single_service.html">Service Detail</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="pricing.html">
-                                    Pricing
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <a href="" class="btn btn-accent px-4 py-3">
-                                <i class="fa-solid fa-phone"></i>
-                                (647) 745-9591</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- End Header -->
+    
+    <header id="header"></header>
 
     <!-- Main -->
 
@@ -92,14 +41,14 @@
                                 We are Thiago and Jessie from Rocket Paw, offering boarding, daycare, walks and drop-in visits for pets at our home near IKEA Vaughan. We welcome only one client at a time, ensuring your pet receives our full attention.
                             </p>
                             <div class="d-flex flex-row gap-3 mt-3">
-                                <a href="" class="btn btn-accent px-5 py-3 fw-semibold">Learn More</a>
-                                <a href="" class="btn btn-accent-outline px-5 py-3 fw-semibold">Contact Us</a>
+                                <a href="" class="btn btn-accent px-5 py-3 fw-semibold">Learn More About Us</a>
+                                <a href="" class="btn btn-accent-outline px-5 py-3 fw-semibold">Book a Sitting</a>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="ps-lg-5 ps-0 position-relative mt-3">
-                            <img class="rounded" src="image/original/thiago-and-jessie-husky.jpg" alt="image"  class="img-fluid">
+                            <img class="rounded max-width-100" src="image/original/thiago-and-jessie-husky.jpg" alt="image"  class="img-fluid">
                             <div class="position-absolute start-0 bottom-0 video-e119">
                                 <div class="position-relative h-100 overflow-hidden"
                                     style="border: 5px solid white ; border-radius: 13px;">
@@ -113,77 +62,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- About -->
-        <div class="section pb-0 bg-light-color">
-            <div class="r-container">
-                <div class="row row-cols-lg-2 row-cols-1">
-                    <div class="col mb-lg-0 mb-3">
-                        <div class="position-relative">
-                            <div class="ps-lg-5 ps-0">
-                                <img class="rounded mt-3" src="image/original/thiago-and-jessie-bruce.jpg" alt="">
-                            </div>
-                            <div class="position-absolute start-0 top-0" style="z-index: 2;">
-                                <div
-                                    class="bg-accent-color rounded-3 d-flex align-items-center gap-3 px-3 py-2 text-white">
-                                    <div style="font-size: 3rem;">
-                                        <i class="fa-solid fa-paw"></i>
-                                    </div>
-                                    <div>
-                                        <h3 class="m-0 fw-semibold">+50</h3>
-                                        <span>Pets taken care</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mb-3">
-                        <div class="d-flex flex-column justify-content-center h-100 pe-lg-5 pe-0">
-                            <span class="font-1 accent-color-2 fs-3">About Us</span>
-                            <div class="mb-4">
-                                <h3 class="font-2 fw-semibold">Thiago & Jessie
-                                </h3>
-                            </div>
-                            <p class="text-gray">
-                                Since 2022 after talking care of many friend's pets we decided to start a buisiness and take our services to the next level.
-                            </p>
-                            <p class="text-gray">
-                                Our environment and approach are ideal for <strong>active pets</strong>, as well as those with <strong>separation anxiety</strong> or who may not be comfortable around other animals.
-                            </p>
-                            <p class="text-gray">We'd be happy to discuss your pet's specific needs and see how we can make their stay as comfortable and enjoyable as possible.</p>
-                            <div class="row row-cols-lg-2 row-cols-1 mt-2">
-                                <div class="col">
-                                    <div>
-                                        <div class="d-flex flex-row align-items-center gap-2 mb-3">
-                                            <img src="image/icon-1.png" alt="" class="img-fluid" width="40" height="40">
-                                            <h5 class="fw-semibold m-0">Thoughtful Care</h5>
-                                        </div>
-                                        <p class="text-gray">
-                                            Both of us had multiple dogs since our childhood and took care of dozens of client's pets with a wide variery of special needs and requests.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div>
-                                        <div class="d-flex flex-row align-items-center gap-2 mb-3">
-                                            <img src="image/icon-2.png" alt="" class="img-fluid" width="40" height="40">
-                                            <h5 class="fw-semibold m-0">Location</h5>
-                                        </div>
-                                        <p class="text-gray">
-                                            We live in a 650sq/ft apartment located very close do IKEA Vaughan at <br>
-                                            <strong> 38 Honeycrisp Cres</strong>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex flex-row gap-3 mt-3">
-                                <a href="about.html" class="btn btn-accent-outline px-5 py-3 fw-semibold">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -420,9 +298,9 @@
                         <div class="col px-3 mb-3">
                             <div
                                 class="d-flex flex-column gap-4 justify-content-center align-items-center text-center step p-5 position-relative">
-                                <img src="./image/original/gps-dog-tracking.jpg" alt="">
+                                <img class="rounded" src="./image/original/gps-dog-tracking.jpg" alt="">
                                 <h5 class="fw-semibold m-0">GPS Tracking</h5>
-                                <p>
+                                <p class="text-gray">
                                    Our Life360 Pet Tracker lets you follow your dog’s walks in real time and the history, giving you peace of mind while you’re away. 
                                 </p>
                                 <div class="position-absolute bottom-0 end-0 p-3">
@@ -433,9 +311,9 @@
                         <div class="col px-3 mb-3">
                             <div
                                 class="d-flex flex-column gap-4 justify-content-center align-items-center text-center step p-5 position-relative">
-                                <img src="./image/original/5km-running-trainning.jpg" alt="">
+                                <img class="rounded" src="./image/original/5km-running-trainning.jpg" alt="">
                                 <h5 class="fw-semibold m-0">Running Trainning</h5>
-                                <p>
+                                <p class="text-gray">
                                     For active pups, our Running sessions provide up to 5KM of high-energy exercise during walks to help them burn off extra energy and stay fit.
                                 </p>
                                 <div class="position-absolute bottom-0 end-0 p-3">
@@ -446,9 +324,9 @@
                         <div class="col px-3 mb-3">
                             <div
                                 class="d-flex flex-column gap-4 justify-content-center align-items-center text-center step p-5 position-relative">
-                                <img src="./image/original/furbo-camera.jpg" alt="">
+                                <img class="rounded" src="./image/original/furbo-camera.jpg" alt="">
                                 <h5 class="fw-semibold m-0">Furbo Camera</h5>
-                                <p>
+                                <p class="text-gray">
                                     For extra reassurance, our Furbo Camera access allows you to check in on your pet, watch live footage, and even toss them treats.
                                 </p>
                                 <div class="position-absolute bottom-0 end-0 p-3">
@@ -481,7 +359,7 @@
                                     </h2>
                                     <div id="collapse1" class="accordion-collapse collapse show"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body text-gray">
                                             We focus on providing personalized, one-on-one care by taking only one client at a time. For households with multiple pets, we’re happy to accommodate up to three pets together.
                                         </div>
                                     </div>
@@ -496,7 +374,7 @@
                                     </h2>
                                     <div id="collapse2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body text-gray">
                                             If we have the skills, resources and avaibility to be able to accommodate your pet needs we will gladly take them.
                                         </div>
                                     </div>
@@ -511,7 +389,7 @@
                                     </h2>
                                     <div id="collapse3" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body text-gray">
                                             Yes. We are experiened dealing with pets with challenging behaviour
                                         </div>
                                     </div>
@@ -526,7 +404,7 @@
                                     </h2>
                                     <div id="collapse4" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body text-gray">
                                             We don’t have a backyard, but every dog gets lots of outdoor time! We go on walks of at least 3 km (around 45 minutes) several times a day, adjusting the pace and distance based on each dog’s energy and routine.
                                         </div>
                                     </div>
@@ -541,17 +419,13 @@
                                     </h2>
                                     <div id="collapse5" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body text-gray">
                                             <ul>
                                                 <li>Rabies</li>
 
                                                 <li>DHPP (Distemper, Hepatitis/Adenovirus, Parvovirus, Parainfluenza)</li>
 
                                                 <li>Bordetella (Kennel Cough)</li>
-
-                                                <li>Leptospirosis (often recommended)</li>
-
-                                                <li>Canine Influenza (sometimes recommended)</li>
 
                                                 <li>Recent deworming</li>
 
@@ -572,7 +446,7 @@
                                     </h2>
                                     <div id="collapse6" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
+                                        <div class="accordion-body text-gray">
                                             Yes, because we offer one on one sitting we are happy to accommodate dogs that are not spayed or neutered. We just ask that they have a gentle temperament and are comfortable in a calm apartment environment. Specifically for females in heat there may be an extra charge.
                                         </div>
                                     </div>
@@ -598,137 +472,7 @@
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer>
-        <div class="section pb-0 overflow-visible mt-5 position-relative" style="margin-bottom: -6.5rem; z-index: 2;">
-            <div class="r-container bg-accent-color rounded-3">
-                <div class="d-flex flex-lg-row flex-column">
-                    <div class="col px-3">
-                        <div
-                            class="d-flex flex-column text-center text-lg-start align-items-center align-items-lg-start p-lg-5 px-3 pt-5 gap-4">
-                            <h3 class="font-2 fw-semibold text-white">
-                                Contact us and book your service
-                            </h3>
-                            <div>
-                                <a href="contact.html" class="btn btn-white-accent px-5 py-3 fw-semibold">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section pb-0 bg-rocket-beige">
-            <div class="r-container py-lg-5 pt-5 border-bottom">
-                <div class="row row-cols-lg-3 row-cols-1 w-100 pt-5">
-                    <div class="col mb-3">
-                        <div class="d-flex flex-column gap-4">
-                            <div class="container">
-                                <img src="image/original/logo-rocket-paw.jpg" alt="" class="img-fluid" width="250">
-                            </div>
-                            <p class="text-gray">
-                                We offer boarding, daycare, walks and drop-in visits for pets at our home near IKEA Vaughan. We welcome only one client at a time, ensuring your pet receives our full attention.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col pt-lg-5 mb-3">
-                        <div class="row row-cols-lg-2 row-cols-1 h-100">
-                            <div class="col mb-3">
-                                <div class="d-flex flex-column gap-3">
-                                    <h5 class="fw-semibold border-bottom pb-2">Quick Links</h5>
-                                    <ul class="list gap-2">
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Home</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Abot Us</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Services</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col mb-3">
-                                <div class="d-flex flex-column gap-3">
-                                    <h5 class="fw-semibold border-bottom pb-2">Information</h5>
-                                    <ul class="list gap-2">
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Term & Condition</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Support</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">FAQs</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col pt-lg-5 px-lg-5 mb-3">
-                        <div class="d-flex flex-column gap-3">
-                            <h5 class="fw-semibold border-bottom pb-2">Get In Touch</h5>
-                            <ul class="list gap-2">
-                                <li>
-                                    <i class="fa fa-location-dot"></i>
-                                    38 Honeycrisp Cres, Concord, ON L4K 0M8
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i>
-                                    (647) 745-9591
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    hello@domainsite.com
-                                </li>
-                            </ul>
-                            <div class="social-container mb-lg-0 mb-3">
-                                <a href="https://www.facebook.com" class="social-item">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="https://www.twitter.com" class="social-item">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                                <a href="https://www.instagram.com" class="social-item">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="https://www.youtube.com" class="social-item">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="r-container py-3">
-                <div class="d-flex flex-lg-row flex-column gap-3 justify-content-between">
-                    <div class="d-flex flex-row gap-3 justify-content-center">
-                        <a href="" class="link text-gray">Privacy Policy</a>
-                        |
-                        <a href="" class="link text-gray">Term & Services</a>
-                    </div>
-                    <span class="text-gray text-center">
-                        Copyright © 2025 Rocket Paw. All Rights Reserved.
-                    </span>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer id="footer"></footer>
 
     <script src="js/vendor/fslightbox.js"></script>
 </body>

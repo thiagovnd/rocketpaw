@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
     <title>Paws - About Us</title>
 </head>
 
@@ -18,79 +19,10 @@
     <script src="js/submit-form.js"></script>
     <script src="js/vendor/isotope.pkgd.min.js"></script>
     <script src="js/video_embedded.js"></script>
+    <script src="js/load-header-footer.js"></script>
 
 
-    <!-- Header -->
-    <div class="border-bottom bg-white sticky-top">
-        <div class="r-container">
-            <nav class="navbar navbar-expand-lg font-2">
-                <div class="container-fluid">
-                    <div class="logo-container">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="./image/logo.png" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="index.html">Homepage</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="about.html">About Us</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Services
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
-                                    <li><a class="dropdown-item" href="single_service.html">Service Detail</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Page
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="team.html">Team</a></li>
-                                    <li><a class="dropdown-item" href="gallery.html">Gallery</a></li>
-                                    <li><a class="dropdown-item" href="faq.html">FAQ's</a></li>
-                                    <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
-                                    <li><a class="dropdown-item" href="404.html">404 Error</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Blog
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="blog.html">Our Blog</a></li>
-                                    <li><a class="dropdown-item" href="single_post.html">Single Post</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                        <div>
-                            <a href="" class="btn btn-accent px-4 py-3">
-                                <i class="fa-solid fa-phone"></i>
-                                +12 345 6789</a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <!-- End Header -->
+    <header id="header"></header>
 
     <!-- Main -->
 
@@ -115,7 +47,7 @@
                     <div class="col mb-lg-0 mb-3">
                         <div class="position-relative">
                             <div class="ps-lg-5 ps-0">
-                                <img class="rounded mt-3" src="image/original/thiago-and-jessie-bruce.jpg" alt="">
+                                <img class="rounded mt-3 max-width-100" src="image/original/thiago-and-jessie-bruce.jpg" alt="">
                             </div>
                             <div class="position-absolute start-0 top-0" style="z-index: 2;">
                                 <div
@@ -169,6 +101,9 @@
                                         </p>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="d-flex flex-row gap-3 mt-3">
+                                <a href="about.html" class="btn btn-accent-outline px-5 py-3 fw-semibold">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -254,121 +189,7 @@
 
         
     </main>
-    <footer>
-        <div class="section pb-0 bg-light-color">
-            <div class="r-container py-lg-5 pt-5 border-bottom">
-                <div class="row row-cols-lg-3 row-cols-1 w-100 pt-5">
-                    <div class="col mb-3">
-                        <div class="d-flex flex-column gap-4">
-                            <div class="container">
-                                <img src="image/logo.png" alt="" class="img-fluid" width="250">
-                            </div>
-                            <p class="text-gray">
-                                Sed ut perspiciatis unde omnis iste natus delavirot
-                                voluptatem accusantium doloremque laudanti totam
-                                aperiam inventore veritatis congueu.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col pt-lg-5 mb-3">
-                        <div class="row row-cols-lg-2 row-cols-1 h-100">
-                            <div class="col mb-3">
-                                <div class="d-flex flex-column gap-3">
-                                    <h5 class="fw-semibold border-bottom pb-2">Quick Links</h5>
-                                    <ul class="list gap-2">
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Home</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Abot Us</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Services</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Contact Us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col mb-3">
-                                <div class="d-flex flex-column gap-3">
-                                    <h5 class="fw-semibold border-bottom pb-2">Information</h5>
-                                    <ul class="list gap-2">
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Privacy Policy</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Term & Condition</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">Support</a>
-                                        </li>
-                                        <li>
-                                            <i class="fa-solid fa-chevron-right fa-xs"></i>
-                                            <a href="" class="link">FAQs</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col pt-lg-5 px-lg-5 mb-3">
-                        <div class="d-flex flex-column gap-3">
-                            <h5 class="fw-semibold border-bottom pb-2">Get In Touch</h5>
-                            <ul class="list gap-2">
-                                <li>
-                                    <i class="fa fa-location-dot"></i>
-                                    KLLG st, No 99, Pku City. ID 28289
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone"></i>
-                                    0761-8523-398
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope"></i>
-                                    hello@domainsite.com
-                                </li>
-                            </ul>
-                            <div class="social-container mb-lg-0 mb-3">
-                                <a href="https://www.facebook.com" class="social-item">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                                <a href="https://www.twitter.com" class="social-item">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                                <a href="https://www.instagram.com" class="social-item">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                                <a href="https://www.youtube.com" class="social-item">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="r-container py-3">
-                <div class="d-flex flex-lg-row flex-column gap-3 justify-content-between">
-                    <div class="d-flex flex-row gap-3 justify-content-center">
-                        <a href="" class="link text-gray">Privacy Policy</a>
-                        |
-                        <a href="" class="link text-gray">Term & Services</a>
-                    </div>
-                    <span class="text-gray text-center">
-                        Copyright © 2024 Rometheme. All Rights Reserved.
-                    </span>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <footer id="footer"></footer>
 
     <script src="js/vendor/fslightbox.js"></script>
 </body>
